@@ -1,0 +1,485 @@
+#main {
+    margin: 0 auto;
+}
+#header {
+    position: relative;
+}
+#offer_icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+._the {
+    color: white;
+    background: red;
+    width: 20px;
+    margin: 0 auto;
+    margin-top: 28px;
+    padding-top: 3px;
+    height: 40px;
+}
+/* 
+* Define global custom CSS
+ */
+.d-flex {
+   display: flex;
+}
+.line-height-50 {
+    line-height: 50px;
+}
+.f-left {
+    float: left;
+}
+/* 
+* Define font size
+*/
+.font-size-13 {
+    font-size: 13px;
+}
+.font-size-8 {
+    font-size: 8px;
+}
+.font-size-50 {
+    font-size: 50px;
+}
+.w-13 {
+    width: 13px;
+}
+.margin-right-15 {
+    margin-right: 15px;
+}
+.margin-top-15 {
+    margin-top: 15px !important;
+}
+.f-left {
+    float: left;
+}
+.f-right {
+    float: right !important;
+}
+.padding-left-30 {
+    padding-left: 30px !important;
+}
+/**
+* Custom CSS for element
+ */
+#logo {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+#logo h1 {
+    margin-top: 15px;
+}
+#header-menu {
+    display: flex;
+    width: 535px;
+    margin: 0 auto;
+}
+#header ul {
+    display: flex;
+}
+#header ul li {
+    list-style: none;
+    margin-right: 15px;
+    color: #ffbc00 ;
+    display: flex;
+}
+#header ul li i {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#header ul li a {
+    text-decoration: none;
+    color: black;
+}
+#header ul li a :hover{
+    text-decoration: none;
+}
+.fa-facebook {
+    color: blue;
+}
+.fa-twitter {
+    color: aqua;
+}
+.fa-google-plus {
+    color: red;
+}
+.fa-linkedin-in {
+    color: pink;
+}
+#menu {
+    margin-top: 15px;
+}
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+#menu a {
+    text-decoration: none;
+}
+.menu-item {
+    float: left;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+}
+.menu-item:hover {
+    color: white;
+    background-color:#ffbc00 ;
+}
+.b-left {
+    height: 44px;
+    width: 5px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.menu-item:hover .b-left {
+    display: block;
+}
+#cart {
+    float: right;
+    padding-top: 5px;
+    font-size: 25px;
+    position: relative;
+}
+#cart i {
+    z-index: 1;
+}
+#cart-item-quantity {
+    font-size: 13px;
+    color: white;
+    background-color: #ffbc00;
+    padding: 3px 6px 3px 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    z-index: 9;
+}
+#banner {
+    background: url(../../video/video.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#slogan {
+    color: white;
+}
+#txt-search {
+    background: #ffffff73;
+}
+.icon-diamon {
+    width: 220px;
+    margin: 0 auto;
+}
+.icon-diamon img {
+    width: 100%;
+}
+#special-offer-top {
+    margin-top: 50px;
+}
+.special-offer-top-nav-tabs {
+    margin: 0 auto;
+    width: 510px;
+    margin-top: 25px;
+    border-bottom: none !important;
+}
+.special-offer-top-nav-tabs .active {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid black !important;
+}
+.nav-link {
+    border: none !important;
+}
+.product-item img {
+    width: 50%;
+    margin: 0 auto;
+}
+.pro-item-content {
+    width: 95%;
+    border: 1px solid #00000047;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#nav-tabContent {
+    margin-top: 25px;
+}
+.offer {
+    color: white;
+    background-color: red;
+    padding: 3px 10px 3px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 15px 0 0 15px;
+}
+.product-name {
+    margin-top: 25px;
+}
+.rattings i {
+    font-size: 13px;  	
+}
+.bg-star {
+    color: #ffbc00;
+}
+.add-to-cart {
+    border: 1px solid #29aa2e;
+    width: 125px !important;
+    margin: 0 auto;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    color: #29aa2e;
+}
+.add-to-cart:hover {
+    cursor: pointer;
+    color: white;
+    background: #29aa2e;
+}
+#section-image {
+    margin-top: 50px;
+}
+.section-image-1-content {
+    width: 95%;
+    margin: 0 auto;
+    background: url(../../images/co1.jpg);
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 116px;
+    padding-bottom: 116px;
+}
+.section-image-2-content {
+    width: 95%;
+    margin: 0 auto;
+    background: url(../../images/co.jpg);
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 136px;
+    padding-bottom: 136px;
+}
+.section-image-3-top {
+    background: url(../../images/co2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.section-image-3-bottom {
+    background: url(../../images/co3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    margin-top: 10px;
+}
+#sliders {
+    margin-top: 50px;
+}
+#special-offer-bottom {
+    margin-top: 50px;
+}
+#special-offer-bottom .product-item {
+    margin-top: 25px;
+}
+#footer {
+    margin-top: 50px;
+    background: #323030;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+.footer-menu {
+    padding-left: 0;
+}
+.footer-menu li {
+    list-style: none;
+    line-height: 25px;
+}
+.footer-menu li a {
+    color: white;
+    text-decoration: none;
+}
+.fa fa-search {
+    color: white;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#products {
+    margin-top: 50px;
+}
+#list-product .product-item {
+    margin-top: 15px;
+}
+#load-more {
+    margin-top: 25px
+}
+#show-more {
+    background: none;
+    padding: 10px 20px 10px 20px;
+    border: 2px green solid;
+    color: green;
+    border-radius: 25px;
+}
+#show-more:hover {
+    background: green;
+    color: white;
+}
+#breadcrum {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url(../../images/sh.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#breadcrum a {
+    text-decoration: none;
+}
+#product-detail {
+    margin-top: 50px;
+}
+#product-detail #product-detail-image img {
+    width: 100%;
+    border: 1px solid #ddd7d7; 
+    padding: 30px 60px 30px 60px;
+}
+#img-cac {
+    width: 100%;
+}
+#about {
+    margin-top: 50px;
+}
+#about p {
+    padding: 15px 30px 15px 30px;
+    color: #00000082;
+}
+#contact {
+    margin-top: 50px;
+}
+#google-map {
+    width: 100%;
+    margin-top: 25px;
+}
+#contact .location {
+    margin-right: 25px;
+}
+#contact .email {
+    margin-right: 25px;
+}
+#contact i {
+    color: red;
+}
+#contact-tab-panel button {
+    padding: 30px 60px 30px 60px;
+    
+}
+#contact-tab-panel li button i {
+    font-size: 26px;
+    color: yellowgreen;
+}
+#contact-tab-panel .active {
+    border: 1px solid #a29f9f !important;
+}
+#txt-name {
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+}
+#txt-email {
+    width: 49%;
+}
+#myTabContent {
+    border: 1px solid #00000017;
+}
+#form-contact {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#faq {
+    margin-top: 50px;
+}
+.txt-collapse {
+    text-decoration: none;
+    color: #433f3f;
+}
+.collapse .card-body {
+    border: none;
+}
+#login {
+    margin-top: 50px;
+}
+#login a {
+    text-decoration: none;
+}
+#login-section {
+    box-shadow: 1px 1px 4px 2px;
+    padding: 25px 15px 25px 15px;
+}
+.form-group {
+    position: relative;
+}
+.form-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #00000099;
+    font-size: 15px;
+    width: 30px;
+    border: none;
+    background: none;
+}
+.product-in-cart {
+    border: 1px solid #00000029;
+    padding: 10px 10px 20px 10px;
+}
+.cart-item-name {
+    margin-top: 50px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.cart-icon-item {
+    background: none;
+    border: 1px solid #00000029;
+}
+#cart-list tbody tr {
+    /* căn giữa dòng */
+    vertical-align: middle;  
+     /*  */
+}
+.cart-item-qty {
+    background: #00000029;
+    border: none;
+    color: #0000004d;
+}
+.error {
+    color: red;
+}
